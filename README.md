@@ -1,4 +1,4 @@
-###Project developed at <a href="https://github.com/Kodluyoruz">Kodluyoruz</a> Izmir <a href="https://github.com/atolye15">Atölye15</a> JavaScript Bootcamp !
+### Project developed at <a href="https://github.com/Kodluyoruz">Kodluyoruz</a> Izmir <a href="https://github.com/atolye15">Atölye15</a> JavaScript Bootcamp !
 
 ### Demo
 https://www.catanddog.space/
