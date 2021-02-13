@@ -57,10 +57,7 @@ const elementCreator = (function () {
     const buttonInner = "<p><a>More</a></p>";
     const reverseDownButton = document.createElement("button");
     const reference = document.querySelector(".img-container");
-    reference.insertBefore(
-      reverseDownButton,
-      document.getElementById("button-reference")
-    );
+    reference.append(reverseDownButton);
     reverseDownButton.id = "reversedown";
     reverseDownButton.type = "button";
     reverseDownButton.classList.add("scroll-down");

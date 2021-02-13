@@ -65,6 +65,7 @@ const setter = (function () {
   const _bindHelper = (listenerBind) => {
     // we need clear while every sound call
     _removeAllLastPointBeforeClick();
+    actions.removeIsReverseButton()
     const $reverseDown = elementCreator.$createReturnButton(); // create and return reverseDown Element's DOM
     // We must check main-image for question of modal
     if (

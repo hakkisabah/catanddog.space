@@ -19,7 +19,10 @@ const actions = (function () {
     $myModal.toggle();
     callback($myModal, soundButtonThis, $reverseDown);
   };
-
+  const removeIsReverseButton = ()=> {
+    const isReverseButton = document.getElementById("reversedown")
+    isReverseButton?isReverseButton.remove():false
+  }
   const playAudio = (
     soundButtonThis,
     $reverseDown,
@@ -46,5 +49,6 @@ const actions = (function () {
     flashElement,
     isImageWantToDisplay,
     playAudio,
+    removeIsReverseButton
   };
 })();
