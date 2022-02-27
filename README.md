@@ -1,7 +1,7 @@
 ### Project developed at <a href="https://github.com/Kodluyoruz">Kodluyoruz</a> Izmir <a href="https://github.com/atolye15">Atölye15</a> JavaScript Bootcamp !
 
 ### Demo
-https://www.catanddog.space/
+https://catanddog.hakkisabah.com
 
 ### Technologies
 - HTML, JavaScript
